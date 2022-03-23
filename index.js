@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const mongoose = require("mongoose"); //Mongodb conector
 const methodOverride = require("method-override");
-const port = 3999;
+const port = process.env.PORT || 3000;
 const Product = require("./models/product");
 
 mongoose
