@@ -10,8 +10,9 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.get("/", (req, res) => {
-  res.render("index");
-});
+  return res.status(200).send({
+    message: "Hello World!",
+});});
 
 app.listen(port, () => {
   console.log("SERVER IS LISTENNING IN PORT " + port);
