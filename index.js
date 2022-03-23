@@ -14,5 +14,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("API MONGODB IS LISTENNING IN PORT " + port);
+  console.log("SERVER IS LISTENNING IN PORT " + port);
 });
