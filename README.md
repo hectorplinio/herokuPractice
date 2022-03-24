@@ -1,5 +1,3 @@
-# jnt-copy
-
 # Deploy Heroku Host Server 🚀
 
 _In this part of our project we need to deploy our project on the host server and the best option is Heroku, because we can connect our GitHub repository automatically with Github Actions._
