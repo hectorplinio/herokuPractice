@@ -2,7 +2,7 @@
 
 _In this part of our project we need to deploy our project on the host server and the best option is Heroku, because we can connect our GitHub repository automatically with Github Actions._
 
-## Getting Started
+## Getting Started 📋
 
 _To get started using the action, just make sure to have a Procfile in your project:_
 
@@ -40,3 +40,11 @@ _In your Repo, go to Settings -> Secrets and click on "New Secret". Then enter_ 
 _The next step is to open the Heroku application and click on Deploy, once there click on the deployment method and select GitHub, and then just follow the steps._
 
 _You can now push your project to GitHub and it will be automatically deployed to Heroku henceforth._
+
+## Time to use ⚙️
+
+_Whenever you push your project to master heroku updated your Heroku application automatly, you can see the changes in:_
+
+````
+https://NAME-OF-PROJECT.herokuapp.com/
+````
